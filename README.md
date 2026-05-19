@@ -5,7 +5,7 @@ Built an end-to-end retail inventory optimization and demand forecasting project
 
 ---
 ## The Business Problem
-A multi-store retail operation was losing revenue to two opposite problems at the same time: shelves running empty on high-demand products while other products sat unsold. The goal was to understand why, forecast what demand would look like over the next 30 days, and give store managers a clear action list.
+A multi-store retail operation was losing revenue to two opposite problems at the same time: shelves running empty on high-demand products, while other products sat unsold. The goal was to understand why, forecast what demand would look like over the next 30 days, and give store managers a clear action list.
 
 ### Business Question
 
@@ -13,7 +13,7 @@ A multi-store retail operation was losing revenue to two opposite problems at th
 
 ### Key Findings:
 - 69% of all store/product combinations are critically low on stock and at risk of running out. Only 6% are in a healthy state. This is a widespread problem, not isolated to one store or category.
-- Clothing runs out the fastest (14.3% stockout rate) while Furniture sits unsold the longest (20.8% overstock rate). It leads to opposite decisions to order more clothing, slow down furniture orders.
+- Clothing runs out the fastest (14.3% stockout rate) while Furniture sits unsold the longest (20.8% overstock rate). It leads to opposite decisions to order more clothing and slow down furniture orders.
 - Promotions increase demand by about 30%. Stores are not accounting for this spike when placing orders, which is likely making the stockout problem worse.
   
 --- 
@@ -264,7 +264,6 @@ A Random Forest Regressor was developed to forecast retail demand.
 - Clothing as the highest-demand category
 - Furniture as the lowest-demand category
 
-
 ---
 
 ## 8. Business Recommendations
@@ -301,4 +300,3 @@ A Random Forest Regressor was developed to forecast retail demand.
 │   └── Demand_Drivers_Forecasting.PNG
 └── README.md
 ```
-
